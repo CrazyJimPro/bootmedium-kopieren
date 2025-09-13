@@ -1,3 +1,16 @@
+Ah, sehr gute Idee 👍 – also ein **One-Liner**, den du direkt auf deinem Pi eingeben kannst. Der legt die `clone-bootmedium.sh` ins aktuelle Verzeichnis, macht sie ausführbar und startet sie sofort.
+
+Beispiel (ersetze `<dein-user>` und `<dein-repo>` durch deine GitHub-Daten):
+
+```bash
+curl -sSL https://raw.githubusercontent.com/<dein-user>/<dein-repo>/main/clone-bootmedium.sh -o clone-bootmedium.sh && chmod +x clone-bootmedium.sh && sudo ./clone-bootmedium.sh
+```
+
+---
+
+### Angepasste `README.md` mit One-Liner:
+
+````markdown
 # clone-bootmedium.sh
 
 > 🛠️ Ein Bash-Skript zum Klonen des Raspberry-Pi-Bootmediums (SD ↔ USB ↔ M.2) – einfach, sicher, direkt bootfähig.
@@ -13,33 +26,26 @@ Das Zielmedium ist nach dem Klonvorgang **direkt bootfähig**.
 
 ---
 
-## ⚙️ Voraussetzungen
+## 🚀 Schnellstart (Einzeiler)
 
-- Raspberry Pi (getestet mit Pi 4 und Pi 5)  
-- Debian/Raspberry Pi OS (Bookworm oder neuer empfohlen)  
-- Root-/Sudo-Rechte  
-- Internetzugang (zum Installieren der benötigten Tools)  
+Einfach in den gewünschten Ordner wechseln und diesen Befehl ausführen:  
 
-Benötigte Tools werden automatisch installiert:  
-
-- `gparted`, `gdisk`, `dosfstools`, `mtools`, `iotop`, `rsync`
+```bash
+curl -sSL https://raw.githubusercontent.com/<dein-user>/<dein-repo>/main/clone-bootmedium.sh -o clone-bootmedium.sh && chmod +x clone-bootmedium.sh && sudo ./clone-bootmedium.sh
+````
 
 ---
 
-## 🚀 Installation
+## ⚙️ Voraussetzungen
 
-1. Repo klonen oder Script herunterladen:  
-   ```bash
-   git clone https://github.com/<dein-user>/<dein-repo>.git
-   cd <dein-repo>
-   chmod +x clone-bootmedium.sh
+* Raspberry Pi (getestet mit Pi 4 und Pi 5)
+* Debian/Raspberry Pi OS (Bookworm oder neuer empfohlen)
+* Root-/Sudo-Rechte
+* Internetzugang (zum Installieren der benötigten Tools)
 
+Benötigte Tools werden automatisch installiert:
 
-2. Script starten:
-
-   ```bash
-   sudo ./clone-bootmedium.sh
-   ```
+* `gparted`, `gdisk`, `dosfstools`, `mtools`, `iotop`, `rsync`
 
 ---
 
@@ -76,7 +82,7 @@ Benötigte Tools werden automatisch installiert:
 ## 📷 Beispielablauf
 
 1. Pi bootet von **SD**
-2. `clone-bootmedium.sh` starten
+2. `clone-bootmedium.sh` starten (z. B. mit dem Einzeiler oben)
 3. Zielmedium auswählen → z. B. `/dev/sda` (USB)
 4. Warten, bis Kopiervorgang abgeschlossen ist
 5. Pi herunterfahren, SD entfernen, vom USB booten
@@ -99,5 +105,5 @@ Wenn dir das Skript gefällt, lass gerne ein ⭐ auf GitHub da 😊
 
 ---
 
-👉 Soll ich dir auch gleich einen Vorschlag für die **Repository-Beschreibung und Tags** machen, die du bei GitHub eintragen kannst, damit es besser gefunden wird?
+👉 Soll ich dir die GitHub-URL in den One-Liner schon mit deinem Repo-Namen eintragen, sobald du mir sagst, wie es genau heißen soll?
 ```
