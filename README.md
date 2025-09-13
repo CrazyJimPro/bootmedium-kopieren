@@ -18,7 +18,7 @@ Das Zielmedium ist nach dem Klonvorgang **direkt bootfähig**.
 Einfach in den gewünschten Ordner wechseln und diesen Befehl ausführen:  
 
 ```
-curl -sSL [https://github.com/CrazyJimPro/bootmedium-kopieren/main/clone-bootmedium.sh -o clone-bootmedium.sh && chmod +x clone-bootmedium.sh && sudo ./clone-bootmedium.sh
+curl -sSL https://github.com/CrazyJimPro/bootmedium-kopieren/main/clone-bootmedium.sh -o clone-bootmedium.sh && chmod +x clone-bootmedium.sh && sudo ./clone-bootmedium.sh
 ````
 
 ## ⚙️ Voraussetzungen
@@ -86,9 +86,4 @@ Frei verwendbar, veränderbar und weitergebbar.
 
 Wenn dir das Skript gefällt, lass gerne ein ⭐ auf GitHub da 😊
 
-```
-
----
-
-👉 Soll ich dir die GitHub-URL in den One-Liner schon mit deinem Repo-Namen eintragen, sobald du mir sagst, wie es genau heißen soll?
 ```
