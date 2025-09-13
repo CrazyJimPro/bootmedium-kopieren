@@ -1,6 +1,3 @@
-Alles klar 👍 ich passe den Namen im README auf **`clone-bootmedium.sh`** an:
-
-````markdown
 # Raspberry Pi Bootmedium Cloner
 
 Dieses Bash-Skript klont ein laufendes Raspberry-Pi-System (z. B. von SD-Karte) **dateibasiert** auf ein anderes Medium (z. B. USB-Stick oder M.2-SSD).  
@@ -24,7 +21,7 @@ Vorher müssen einige Pakete installiert sein:
 ```bash
 sudo apt update
 sudo apt install gdisk dosfstools rsync -y
-````
+
 
 ## Installation
 
