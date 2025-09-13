@@ -1,16 +1,3 @@
-Ah, sehr gute Idee 👍 – also ein **One-Liner**, den du direkt auf deinem Pi eingeben kannst. Der legt die `clone-bootmedium.sh` ins aktuelle Verzeichnis, macht sie ausführbar und startet sie sofort.
-
-Beispiel (ersetze `<dein-user>` und `<dein-repo>` durch deine GitHub-Daten):
-
-```bash
-curl -sSL https://raw.githubusercontent.com/<dein-user>/<dein-repo>/main/clone-bootmedium.sh -o clone-bootmedium.sh && chmod +x clone-bootmedium.sh && sudo ./clone-bootmedium.sh
-```
-
----
-
-### Angepasste `README.md` mit One-Liner:
-
-````markdown
 # clone-bootmedium.sh
 
 > 🛠️ Ein Bash-Skript zum Klonen des Raspberry-Pi-Bootmediums (SD ↔ USB ↔ M.2) – einfach, sicher, direkt bootfähig.
@@ -32,9 +19,7 @@ Einfach in den gewünschten Ordner wechseln und diesen Befehl ausführen:
 
 ```bash
 curl -sSL https://raw.githubusercontent.com/<dein-user>/<dein-repo>/main/clone-bootmedium.sh -o clone-bootmedium.sh && chmod +x clone-bootmedium.sh && sudo ./clone-bootmedium.sh
-````
 
----
 
 ## ⚙️ Voraussetzungen
 
