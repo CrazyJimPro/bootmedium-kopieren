@@ -1,6 +1,3 @@
-Perfekt 🚀 – hier hast du eine fertige `README.md`, die du direkt in dein Repo legen kannst. Ich habe den **Einzeiler** ganz oben und danach die ausführliche Anleitung eingebaut:
-
-````markdown
 # clone-bootmedium.sh
 
 > 🛠️ Ein Bash-Skript zum Klonen des Raspberry-Pi-Bootmediums (SD ↔ USB ↔ M.2) – einfach, sicher, direkt bootfähig.
@@ -36,7 +33,7 @@ Benötigte Tools werden automatisch installiert:
    git clone https://github.com/<dein-user>/<dein-repo>.git
    cd <dein-repo>
    chmod +x clone-bootmedium.sh
-````
+
 
 2. Script starten:
 
