@@ -17,9 +17,9 @@ Das Zielmedium ist nach dem Klonvorgang **direkt bootfähig**.
 
 Einfach in den gewünschten Ordner wechseln und diesen Befehl ausführen:  
 
-```bash
+```
 curl -sSL https://raw.githubusercontent.com/<dein-user>/<dein-repo>/main/clone-bootmedium.sh -o clone-bootmedium.sh && chmod +x clone-bootmedium.sh && sudo ./clone-bootmedium.sh
-
+````
 
 ## ⚙️ Voraussetzungen
 
